@@ -1,13 +1,12 @@
 {
   "name": "@jaychang99/react-components",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "A React component library",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rollup": "rollup -c"
   },
   "keywords": [],
-  "author": "",
+  "author": "jaychang99",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
@@ -18,5 +17,11 @@
     "rollup": "^4.14.0",
     "rollup-plugin-dts": "^6.1.0",
     "typescript": "^5.4.4"
-  }
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
 }
