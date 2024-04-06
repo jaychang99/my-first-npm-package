@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A React component library",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c --bundleConfigAsCjs"
   },
   "keywords": [],
   "author": "jaychang99",
